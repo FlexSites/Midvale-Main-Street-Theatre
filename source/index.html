@@ -1,15 +1,16 @@
 <<>ngHead>>
-
-<nav id="nav">
-    <a href="/" id="logo"></a>
-    <a ng-click="menuIsShowing = !menuIsShowing" id="menu" class="icon-menu"></a>
-    <ul ng-class="{'open': menuIsShowing}" ng-click="menuIsShowing = false">
-        <li><a href="/">Home</a></li>
-        <li><a href="/videos">Media</a></li>
-        <li><a href="/bio">Bio</a></li>
-        <li><a href="/calendar">Calendar</a></li>
-    </ul>
-</nav>
+<header class="flush-full">
+	<nav id="nav" class="fullBar">
+	    <a href="/" id="logo"></a>
+	    <a ng-click="menuIsShowing = !menuIsShowing" id="menu" class="icon-menu"></a>
+	    <ul ng-class="{'open': menuIsShowing}" ng-click="menuIsShowing = false">
+	        <li><a href="/">Home</a></li>
+	        <li><a href="/videos">Media</a></li>
+	        <li><a href="/bio">Bio</a></li>
+	        <li><a href="/calendar">Calendar</a></li>
+	    </ul>
+	</nav>
+</header>
 <ng-view></ng-view>
 
 <<>foot>>
