@@ -1,16 +1,70 @@
-<<>ngHead>>
-<header class="flush-full">
-	<nav id="nav" class="fullBar">
-	    <a href="/" id="logo"></a>
-	    <a ng-click="menuIsShowing = !menuIsShowing" id="menu" class="icon-menu"></a>
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-class="bgClass" ng-strict-di="" class="ng-scope bg-home"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="fragment" content="!">
+        <meta property="og:site_name" content="My Favorite News">
+        <meta property="og:site_name" content="Midvale Main Street Theatre">
+        <!-- <meta property="og:url" content="{{url}}"> -->
+        <meta property="og:image" content="http://local.midvaletheatre.com/img/share.jpg">
+        <meta property="og:type" content="website">
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width, user-scalable=0">
+        <meta name="format-detection" content="telephone=no">
+        <!-- <meta property="og:title" content="{{title}}"> -->
+        <base href="/">
+        <title ng-bind="$root.title" class="ng-binding">Comedian Steve Soelberg</title>
+        <!-- ENVIRONMENT: local -->
+        <link href="/css/style41.css" rel="stylesheet" type="text/css">
+        <link rel="apple-touch-icon" href="/img/mobile/icon.png">
+        <link rel="shortcut icon" type="image/png" href="/favicon.png">
+        <link rel="image_src" href="/img/logo.jpg">
+        <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+    </head>
+    <body ng-controller="MainController" class="ng-scope">
+        <noscript>&lt;div class="error box" style="font-size: 1.5em;"&gt;&lt;mark&gt;Warning!&lt;/mark&gt; Please enable JavaScript. Our site will not display information or function properly without it.&lt;/div&gt;</noscript>
+        <!--[if lt IE 9]><div class="error box"><mark>Error!</mark> Sorry, your internet browser is no longer supported. Pages will not display properly and functions will be unavailable. <a href="http://browsehappy.com" target="_blank">Upgrade for free now!</a></div><![endif]-->
+<header class="flush-full bb bs">
+	<nav id="nav" class="full-bar tr">
+	    <a href="/" id="logo" class="tl grid-9 no-mt pt bb bs">
+         <span style="">MIDVALE</span></br>
+            <span style="font-size: 35px">MAIN ST THEATER</span>
+        </a>
+	    <a ng-click="menuIsShowing = !menuIsShowing" id="menu" class="icon-menu grid-11"></a>
 	    <ul ng-class="{'open': menuIsShowing}" ng-click="menuIsShowing = false">
 	        <li><a href="/">Home</a></li>
-	        <li><a href="/videos">Media</a></li>
-	        <li><a href="/bio">Bio</a></li>
+	        <li><a href="/videos">Shows</a></li>
+	        <li><a href="/bio">About</a></li>
 	        <li><a href="/calendar">Calendar</a></li>
-	    </ul>
-	</nav>
+	    </ul> 
+	</nav> 
 </header>
+<div id="hero-container" class="flush-full bs">
+	<!-- <img src="/img/background.gif"> -->
+	<div class="flush-full" style="height: 100%; background-color: rgba(77, 181, 205, 0.52); position: absolute; top: 0px; left: 0px; z-index: 0"></div>
+</div>
+<div id="location" class="flush-full bb">
+    <div class="full-bar">
+        <span class="pr mr">7711 South Main St. Midvale, UT 84047</span>
+        <span>(801) 566-0596</span>
+
+    </div>
+</div>
+<div class="flush-full">
+    <div class="full-bar">
+        <h2>EVENTS</h2>
+        <div class="event">
+        </div>
+        <div class="event">
+        </div>
+        <div class="event">
+        </div>
+        <div class="event">
+        </div>
+    </div>
+</div>
+
 <ng-view></ng-view>
 
 <<>foot>>
