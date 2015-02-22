@@ -1,0 +1,19 @@
+
+//Global Vars
+$prefix: '.';
+$space: 40px;
+$verticalBlock: 48px;
+
+$baseFontSize: 20px;
+$baseLineHeight: 1.4;
+
+$font-size: $baseFontSize;
+$line-height: $baseLineHeight;
+$baseFontFamily: 'Crete Round', serif;
+$headerFontFamily: 'Crete Round', serif;
+
+// Colors
+$color-primary: #1f85b2;
+$dkMainColor: darken($color-primary,20%);
+$color-secondary: rgba(77, 181, 205, 0.52);
+$dkSubColor: darken($color-secondary,20%);

@@ -1,25 +1,5 @@
 @charset "utf-8";
-
-
-//Global Vars   
-$prefix: '.';
-$space: 40px; 
-$verticalBlock: 48px;
-
-$baseFontSize: 20px;
-$baseLineHeight: 1.4; 
-
-$font-size: $baseFontSize;
-$line-height: $baseLineHeight;
-$baseFontFamily: 'Crete Round', serif;
-$headerFontFamily: 'Crete Round', serif;
-  
-// Colors
-$color-primary: #1f85b2; 
-$dkMainColor: darken($color-primary,20%);
-$color-secondary: #f9b300; 
-$dkSubColor: darken($color-secondary,20%);
-
+@import "defaults";
 // Define fonts 
 @import "/www/sites/global/source/scss/font/comedicon"; 
 // @import "/www/sites/global/public/scss/font/pacifico";

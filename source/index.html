@@ -27,8 +27,8 @@
         <!--[if lt IE 9]><div class="error box"><mark>Error!</mark> Sorry, your internet browser is no longer supported. Pages will not display properly and functions will be unavailable. <a href="http://browsehappy.com" target="_blank">Upgrade for free now!</a></div><![endif]-->
 <header class="flush-full bb bs">
 	<nav id="nav" class="full-bar tr">
-	    <a href="/" id="logo" class="tl grid-9 no-mt pt bb bs">
-         <span style="">MIDVALE</span></br>
+	    <a href="/" id="logo" class="tl grid-9 no-mt pt bb bs a">
+         <span style="">MIDVALE</span><br/>
             <span style="font-size: 35px">MAIN ST THEATER</span>
         </a>
 	    <a ng-click="menuIsShowing = !menuIsShowing" id="menu" class="icon-menu grid-11"></a>
@@ -40,9 +40,11 @@
 	    </ul> 
 	</nav> 
 </header>
+
 <div id="hero-container" class="flush-full bs">
 	<!-- <img src="/img/background.gif"> -->
-	<div class="flush-full" style="height: 100%; background-color: rgba(77, 181, 205, 0.52); position: absolute; top: 0px; left: 0px; z-index: 0"></div>
+	<div class="flush-full"></div>
+
 </div>
 <div id="location" class="flush-full bb">
     <div class="full-bar">
@@ -63,6 +65,9 @@
         <div class="event">
         </div>
     </div>
+</div>
+<div id="footer" class="flush-full bt" style="height: 400px;">
+
 </div>
 
 <ng-view></ng-view>
