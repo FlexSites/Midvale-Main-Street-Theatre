@@ -118,7 +118,7 @@ nav {
 }
 
 .event{
-    @extend .grid-full, .no-mr, .no-ml;
+    @extend .flush-full, .no-mr, .no-ml;
     height: 120px;
     background: #aaa;
     margin-bottom: $space;

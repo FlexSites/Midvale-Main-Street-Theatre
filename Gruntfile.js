@@ -7,5 +7,5 @@ module.exports = function(grunt) {
         buildPath: __dirname.split('/').pop()
     });
 
-    grunt.loadTasks('../global/grunt');
+    grunt.loadTasks('/www/auto/grunt');
 };
